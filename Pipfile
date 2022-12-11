@@ -5,9 +5,16 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
-pymongo = "*"
 gunicorn = "==20.1.0"
 uvicorn = "==0.20.0"
+passlib = {extras = ["bcrypt"], version = "*"}
+pydantic = {extras = ["email"], version = "*"}
+motor = "*"
+pymongo = {extras = ["srv"], version = "*"}
+python-dotenv = "*"
+python-jose = "==3.3.0"
+fastapi-mail = "*"
+python-multipart = "*"
 
 [dev-packages]
 
