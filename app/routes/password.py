@@ -1,4 +1,3 @@
-# library imports
 from fastapi import APIRouter
 from fastapi import HTTPException
 from fastapi import Request

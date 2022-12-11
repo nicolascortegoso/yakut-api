@@ -1,5 +1,7 @@
-from pydantic import BaseSettings
-from pydantic import EmailStr
+from dotenv import load_dotenv
+from pydantic import BaseSettings, EmailStr
+
+load_dotenv()
 
 
 class Settings(BaseSettings):
