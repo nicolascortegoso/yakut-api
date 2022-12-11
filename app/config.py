@@ -25,3 +25,5 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
+#https://github.com/pydantic/pydantic/issues/1368
